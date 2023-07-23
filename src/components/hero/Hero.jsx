@@ -1,6 +1,11 @@
 import React from 'react';
 import './hero.css';
-// import pratik from '../../images/pratik - scroll[1446].json';
+import Lottie from 'lottie-react'; 
+import animationData from '../../images/pratik - scroll[1446].json';
+import line from '../../images/Line 3.png';
+import linee from '../../images/Line 2.png';
+
+
 
 const Hero = ({ menuOpen }) => {
   const isMobile = window.innerWidth <= 480; // Check if the window width is 480px or smaller
@@ -30,6 +35,12 @@ const Hero = ({ menuOpen }) => {
         )}
         </div>
       </div>
+      <div className="hero-container2">
+          <div ><img className='line' src={line} alt="" /></div>
+          <div><Lottie className='lottie' animationData={animationData} /></div> 
+          <div className='linee'><img src={linee} alt="" /></div>
+      </div>
+    
     </>
   )
 }

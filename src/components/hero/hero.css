@@ -41,6 +41,19 @@
     left: 80%;
      transform: translate(-50%, -50%);
 }
+.hero-container2{
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.lottie{
+    height: 75px;
+    width: 75px;
+}
 @media (max-width: 480px) {
     .hero-main{
         margin-top: 43%;
@@ -61,5 +74,7 @@
         left: 71%;
         width: max-content;
     }
-
+    .hero-container2{
+        width: 60%;
+    }
 }
