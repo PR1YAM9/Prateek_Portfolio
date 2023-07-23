@@ -2,10 +2,11 @@ import React, { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import './navbar.css'
 import robot from '../../images/robot logo.png'
-import dot from '../../images/DotsThreeOutline.png'
+import dot from '../../images/DotsThreeOutline.svg'
 import mail from '../../images/mail.svg'
 import github from '../../images/github.svg'
 import linkedin from '../../images/linkedin.svg'
+import Hero from '../hero/Hero'
 
 
 
@@ -43,6 +44,7 @@ const Navbar = () => {
             )}
         </ul>
       </nav>
+      <Hero menuOpen = {menuOpen}/>
     </>
   );
 }

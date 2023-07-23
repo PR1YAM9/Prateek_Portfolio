@@ -1,8 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 .hero-container{
-    padding: 50px 0;
+    z-index: 1;
     text-align: center;
+    position: relative;
 }
 .hero-main{
+    position: relative;
     color: #081E48;
-    /* font-size: 150px; */
+    font-family: 'Anton', sans-serif; ;
+    font-size: 250px;
+    font-weight: 400;
+    line-height: 242px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;    
+}
+.hero-sub1{
+    width: 20%;
+    position: absolute;
+    color: white;
+    font-family: 'Anton', sans-serif; ;
+    font-size: 20px;
+    letter-spacing: 0em;
+    font-family: 'Inter', sans-serif;
+    /* font-size: 24px; */
+    font-weight: 200;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.p1{
+    top: 44%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+}
+.p2{
+    top:66%;
+    left: 80%;
+     transform: translate(-50%, -50%);
+}
+@media (max-width: 480px) {
+    .hero-main{
+        margin-top: 43%;
+        font-size: 80px;
+        line-height: 120px;
+    }
+    .hero-sub1{
+        font-size: 15px;
+        line-height: 16px;
+    }
+    .p1{
+        top: 37%;
+        left: 35%;
+        width: max-content;
+    }
+    .p2{
+        top: 71%;
+        left: 71%;
+        width: max-content;
+    }
+
 }
