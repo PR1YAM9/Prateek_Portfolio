@@ -10,14 +10,14 @@ const Last = () => {
     {
     id: 1,
     first:'Domain Head',
-    second:'&#x40;Robotics and Automation Club, IITH ',
+    second:'@Robotics and Automation Club, IITH ',
     third: 'June 2023 - Present',
     fourth: 'Responsible for recruiting, training core members, and overseeing projects, finances, and events.'
   },{
   
     id: 2,
     first:'Internship Coordinator',
-    second:'&#x40;Office of Career Services, IITH ',
+    second:'@Office of Career Services, IITH ',
     third: 'June 2023 - Present',
     fourth: 'Facilitating various companies with internship and placement drive.'
   
@@ -27,17 +27,26 @@ const Last = () => {
 
   return (
     <div>
+      <div className='head'>LEADERSHIP ROLES<span className='respon'>and <br /> responsibilities</span> 
+      </div>
       {list.map((list)=>{
         return(
-          <div style={{color:'white'}} key={list.id}>
-            <div><span>and responsibities</span> LEADERSHIP ROLES
-            </div>
-            <div> 
-              <span>{list.id}</span> 
-              <span>{list.first}</span><span>{list.second}</span>
-              <span>{list.third}</span>
-              <span>{list.fourth}</span>
-            </div>
+          <div className='outer' key={list.id}>
+            
+              <div className='hashDiv'><span className='id'>#{list.id}</span></div>
+
+              <div className='rest'>
+                <div>
+                <span className='first'>{list.first} </span><span className='second'>{list.second} <br /> </span>
+                </div>
+                <div><span className='third'>{list.third} <br /> </span></div>
+                <div><span className='fourth'>{list.fourth}</span></div>
+                
+                
+                
+              </div>
+              
+            
           </div>
         )
       }
