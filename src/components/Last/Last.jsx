@@ -2,7 +2,7 @@ import React from 'react'
 import "./Last.css";
 import flower from '../../images/slider thing.png';
 
-const lastSec = () => {
+const Last = () => {
 
   const items = ['iot', 'Robotics', 'embedded system', 'image Processing', 'Signal Processing', 'Machine learning'];
 
@@ -27,7 +27,7 @@ const lastSec = () => {
 
   return (
     <div>
-      {list.map((item)=>{
+      {list.map((list)=>{
         return(
           <div style={{color:'white'}} key={list.id}>
             <div><span>and responsibities</span> LEADERSHIP ROLES
@@ -64,6 +64,4 @@ const lastSec = () => {
   )
 }
 
-export default lastSec
-
-
+export default Last
