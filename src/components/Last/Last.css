@@ -14,28 +14,29 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 70px;
   background: #071A3F;
   z-index: 1;
-  transform: rotate(-3deg);
+  transform: rotate(-4deg);
 }
 .marquee {
   position: relative;
-  width: 126%;
+  /* width: 126%; */
+  width: 100%;
   white-space: nowrap;
   overflow: hidden;
   transform: rotate(2deg);
   margin-top: 40px;
   background-color: #637AAA;
-  height: 60px;
+  height: 70px;
   z-index: 2;
 }
 
 .marquee__inner {
-  padding-top: 6px;
+  padding-top: 12px;
   animation: marquee 20s linear infinite;
   display: flex;
-  width: 252%;
+  width: 320%;
 }
 
 
@@ -48,6 +49,7 @@
   font-family: 'inter';
   font-weight: 700;
   text-transform: uppercase;
+  color: #23488E;
 }
 .marquee__image {
   object-fit: contain;
