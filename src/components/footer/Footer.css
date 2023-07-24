@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url("https://fonts.google.com/specimen/Inter?preview.text=recent&preview.text_type=custom&query=inter");
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+
+
+.outer1{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    }
+.first1{
+    padding: 0 130px;
+    display: flex;
+    justify-content: space-around;
+}
+.links{
+    color: #637AAA;
+    font-family: 'Inter';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.second1{
+    color: #23488D;
+    width: 100%;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+.quatro{
+    color: #23488D;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+a{
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+img{
+    object-fit: contain;
+}
+.logos{
+    object-fit: contain;
+}
