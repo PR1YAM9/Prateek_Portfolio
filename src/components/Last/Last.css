@@ -30,13 +30,15 @@
   background-color: #637AAA;
   height: 70px;
   z-index: 2;
+  display: flex;
 }
 
 .marquee__inner {
   padding-top: 12px;
   animation: marquee 20s linear infinite;
   display: flex;
-  width: 320%;
+  /* width: 320%; */
+  justify-content: space-evenly;
 }
 
 
@@ -53,6 +55,9 @@
 }
 .marquee__image {
   object-fit: contain;
+  width: 22px;
+  height: 21px;
+  margin-top: 15px;
 }
 
 @keyframes marquee {
