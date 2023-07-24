@@ -1,22 +1,50 @@
 import React from 'react'
-// import Banner  from "./ScrollingText.jsx";
 import "./Last.css";
 import flower from '../../images/slider thing.png';
 
+const lastSec = () => {
 
   const items = ['iot', 'Robotics', 'embedded system', 'image Processing', 'Signal Processing', 'Machine learning'];
+
+  const list=[
+    {
+    id: 1,
+    first:'Domain Head',
+    second:'&#x40;Robotics and Automation Club, IITH ',
+    third: 'June 2023 - Present',
+    fourth: 'Responsible for recruiting, training core members, and overseeing projects, finances, and events.'
+  },{
+  
+    id: 2,
+    first:'Internship Coordinator',
+    second:'&#x40;Office of Career Services, IITH ',
+    third: 'June 2023 - Present',
+    fourth: 'Facilitating various companies with internship and placement drive.'
+  
+}];
   
 
 
-export default function Last() {
   return (
     <div>
-      {/* <div><span>and responsibities</span> LEADERSHIP ROLES</div>
-      <div>
-        <div> <span>&#35;1</span> </div>
-        <div></div>
-      </div> */}
+      {list.map((item)=>{
+        return(
+          <div style={{color:'white'}} key={list.id}>
+            <div><span>and responsibities</span> LEADERSHIP ROLES
+            </div>
+            <div> 
+              <span>{list.id}</span> 
+              <span>{list.first}</span><span>{list.second}</span>
+              <span>{list.third}</span>
+              <span>{list.fourth}</span>
+            </div>
+          </div>
+        )
+      }
+    )}
       
+     
+
       <div className="container">
         <div className="black-bar"></div>
         <div className="marquee">
@@ -36,5 +64,6 @@ export default function Last() {
   )
 }
 
+export default lastSec
 
 
