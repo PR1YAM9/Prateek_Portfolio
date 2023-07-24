@@ -1,12 +1,16 @@
 import React from 'react'
-import Last from './components/Last/Last'
+import './App.css'
+// import Hero from './components/hero/Hero'
+import Navbar from './components/navbar/Navbar'
+import Last from './components/Last/Last' 
+
 
 const App = () => {
   return (
-    <div>
-
+    <>
+      <Navbar/>
       <Last/>
-    </div>
+    </>
   )
 }
 
