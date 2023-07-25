@@ -16,7 +16,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 99.9%;
   height: 70px;
   background: #071A3F;
   z-index: 1;
@@ -25,7 +25,7 @@
 .marquee {
   position: relative;
   /* width: 126%; */
-  width: 100%;
+  width:99.9%;
   white-space: nowrap;
   overflow: hidden;
   transform: rotate(2deg);
@@ -92,7 +92,7 @@
 .respon{
   text-transform: lowercase;
   transform: rotate(-4deg);
-  margin-top: 30px;
+  margin-top: 40px;
   left: 27.5%;
   position: absolute;
   color: #0CA4E6;
@@ -100,7 +100,7 @@
   font-size: 33px;
   font-style: normal;
   font-weight: 400;
-  line-height: 98.9%; /* 23.736px */
+  line-height: 70%; /* 23.736px */
 }
 .hashDiv{
   position: relative;
@@ -163,4 +163,35 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+@media (max-width: 480px) {
+  .head{
+    font-size: 48px;
+  }
+  .hasdDiv{
+    margin-left:0;
+  }
+  .id{
+    font-size: 20px;
+  }
+  .rest{
+    padding-top: 0;
+    position: relative;
+    padding-left: 0;
+  }
+  .outer{
+    display: block;
+  }
+  .first{
+    font-size: 20px;
+  }
+  .second{
+    font-size: 15px;
+  }
+  .third{
+    font-size:12px;
+  }
+  .fourth{
+font-size: 16px;
+  }
 }

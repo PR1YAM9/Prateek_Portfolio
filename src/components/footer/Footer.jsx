@@ -11,11 +11,11 @@ export default function Footer() {
         <div className='first1'>
             <a className='links' href="https://github.com/N-Pratik"> <img className='logos' src={git} alt="" /> <span className='link-span'>Github</span></a>
             <a className='links' href="mailto:ee21btech11037@iith.ac.in"> <img className='logos' src={email}  alt="" /> <span className='link-span'> Email</span></a>
-            <a className='links' href="https://www.linkedin.com/in/pratik-nikam-83ab98223"> <img className='logos' src={linkd} alt="" /> <span className='link-span'> Linkedi</span>n</a>
+            <a className='links' href="https://www.linkedin.com/in/pratik-nikam-83ab98223"> <img className='logos' src={linkd} alt="" /> <span className='link-span'> Linkedin</span></a>
         </div>
         <div className='second1'>
             <div className='rights'>
-            © Copyright 2023 by Pratik Nikam. All rights reserved  | <a className='quatro' href="https://www.quatro.in/">Created by quatro <img src={quat} alt="" /> </a> 
+            © Copyright 2023 by Pratik Nikam. All rights reserved  |&nbsp;<a className='quatro' href="https://www.quatro.in/"> Created by quatro <img className='quatro-link' src={quat} alt="" /> </a> 
             </div>
         </div>
     </div>
