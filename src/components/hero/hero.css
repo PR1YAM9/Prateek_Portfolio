@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
 .hero-container{
     z-index: 1;
@@ -32,14 +33,31 @@
     text-align: left;
 }
 .p1{
-    top: 44%;
-    left: 27%;
+    top: 33%;
+    left: 28%;
     transform: translate(-50%, -50%);
 }
 .p2{
     top:66%;
     left: 80%;
      transform: translate(-50%, -50%);
+}
+.hero-container2{
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.lottie{
+    height: 75px;
+    width: 75px;
+}
+.fontg{
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
 }
 @media (max-width: 480px) {
     .hero-main{
@@ -51,6 +69,9 @@
         font-size: 15px;
         line-height: 16px;
     }
+    .fontg{
+        font-size: 15px;
+    }
     .p1{
         top: 37%;
         left: 35%;
@@ -61,5 +82,7 @@
         left: 71%;
         width: max-content;
     }
-
+    .hero-container2{
+        width: 60%;
+    }
 }
