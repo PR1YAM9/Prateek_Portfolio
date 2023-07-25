@@ -30,6 +30,7 @@
     align-items: center;
 }
 .link-span {
+    padding-bottom: 3px;
     margin-left: 5px;
     /* Set a transparent border-bottom initially */
     border-bottom: 1.5px solid transparent;
@@ -89,4 +90,7 @@ img{
 }
 .logos{
     object-fit: contain;
+}
+.quatro-link{
+    padding-bottom: 4px;
 }
