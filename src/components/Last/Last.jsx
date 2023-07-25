@@ -27,7 +27,7 @@ const Last = () => {
 
   return (
     <div>
-      <div className='head'>LEADERSHIP ROLES<span className='respon'>and <br /> responsibilities</span> 
+      <div className='head'>LEADERSHIP ROLES<span className='respon'>and responsibilities</span> 
       </div>
       {list.map((list)=>{
         return(

@@ -94,3 +94,55 @@ img{
 .quatro-link{
     padding-bottom: 4px;
 }
+
+
+@media (max-width: 480px) {
+.links{
+    font-size: 20px !important;
+  }
+  .logos {
+    width: 21px;
+    height: 21px;
+  }
+  .first1{
+    margin: 0 20px;
+    padding: 0;
+    justify-content: space-between;
+  }
+  .second1{
+    font-size: 9.9px ;
+}
+  .quatro{
+    flex-wrap: nowrap ;
+    font-size: 9.9px ;
+  }
+  .rights{
+    margin-top: 20px;
+    margin-left: 5px;
+    display: block ;  
+}
+  .footer-slash{
+    display: none;
+  }
+  .quatro-link{
+    width: 21px;
+    height: 21px;
+  }
+  .link-span{
+    padding: 0;
+  }
+  .line {
+    width: 246.002px;
+    height: 1px;
+    background: radial-gradient(circle at 4.78% 50.47%, #040F25 7.99%, #637AAA 35.85%, rgba(99, 122, 170, 0.00) 67.10%);
+    margin-top: 20px;
+    margin-left: 25%;
+  }
+  .outer1{
+    margin-top: 90px;
+  }
+  .container{
+    margin-top: 100px;
+  }
+  
+}
