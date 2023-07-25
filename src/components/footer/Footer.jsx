@@ -9,12 +9,14 @@ export default function Footer() {
   return (
     <div className='outer1'>
         <div className='first1'>
-            <div><a className='links' href="/"> <img className='logos' src={git} alt="" /> Github</a></div>
-            <div><a className='links' href="/"> <img className='logos' src={email}  alt="" /> Email</a></div>
-            <div><a className='links' href="/"> <img className='logos' src={linkd} alt="" /> Linkedin</a></div>
+            <a className='links' href="https://github.com/N-Pratik"> <img className='logos' src={git} alt="" /> <span className='link-span'>Github</span></a>
+            <a className='links' href="mailto:ee21btech11037@iith.ac.in"> <img className='logos' src={email}  alt="" /> <span className='link-span'> Email</span></a>
+            <a className='links' href="https://www.linkedin.com/in/pratik-nikam-83ab98223"> <img className='logos' src={linkd} alt="" /> <span className='link-span'> Linkedi</span>n</a>
         </div>
         <div className='second1'>
-            © Copyright 2023 by Pratik Nikam. All rights reserved  | <a className='quatro' href="/">Created by quatro <img src={quat} alt="" /> </a> 
+            <div className='rights'>
+            © Copyright 2023 by Pratik Nikam. All rights reserved  | <a className='quatro' href="https://www.quatro.in/">Created by quatro <img src={quat} alt="" /> </a> 
+            </div>
         </div>
     </div>
   )
