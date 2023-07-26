@@ -167,9 +167,12 @@
 @media (max-width: 480px) {
   .respon{
     font-size: 15px;
-    margin-top: 115px;
+    left: 32%;
+    margin-top: 100px;
+    letter-spacing: 2px;
   }
   .head{
+    line-height: 60px; 
     font-size: 48px;
     text-align: center;
   }
