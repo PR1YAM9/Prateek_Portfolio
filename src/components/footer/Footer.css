@@ -32,20 +32,13 @@
 .link-span {
     padding-bottom: 3px;
     margin-left: 5px;
-    /* Set a transparent border-bottom initially */
     border-bottom: 1.5px solid transparent;
-
-    /* Define the radial gradient */
-    /* background-image: radial-gradient(circle, #040F25 20%, #0CA4E6 43%, #0CA4E6 51%, #040F25 82%); */
     background-origin: border-box;
     background-clip: content-box, border-box;
 }
 
 .link-span:hover {
-    /* Set the border-image with the radial gradient on hover */
     border-image: radial-gradient(circle, #040F25 20%, #0CA4E6 43%, #0CA4E6 51%, #040F25 82%) 1;
-
-    /* Reset the background-image, so it doesn't interfere with the border */
     background-image: none;
 }
 
@@ -134,7 +127,7 @@ img{
   .line {
     width: 246.002px;
     height: 1px;
-    background: radial-gradient(circle at 4.78% 50.47%, #040F25 7.99%, #637AAA 35.85%, rgba(99, 122, 170, 0.00) 67.10%);
+    background: radial-gradient(circle at 4.78% 50.47%, #040F25 0%, #637AAA 35.85%, rgba(99, 122, 170, 0.00) 67.10%);
     margin-top: 20px;
     margin-left: 25%;
   }
