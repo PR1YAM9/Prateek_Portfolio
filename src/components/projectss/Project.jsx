@@ -1,17 +1,28 @@
-import React from 'react'
-import Card from '../cards/Card.jsx'
-import data from '../cards/data.js'
+import React from "react";
+import Card from "../cards/Card.jsx";
+import data from "../cards/data.js";
+import "./Project.css";
+import photo from "../../images/Group 5.png";
 const Project = () => {
   return (
     <div>
-        {
+      {/* <div style={{textAlign:'center'}}>
+        <p id='project-head'>PROJECTS</p>
+        <span className='subtext-project'>Recent</span>
+      </div> */}
+      <div style={{ display: "flex", justifyContent: "center" }}>
+        <img src={photo} alt="" />
+      </div>
 
-            data.map((item) => {
-                return <Card key={item.id} {...item} />
-            })
-        }
+      {data.map((item) => {
+        return (
+          <div style={{display:'flex',justifyContent:'center' ,margin:'35px 0px'}}>
+            <Card key={item.id} {...item} />
+          </div>
+        );
+      })}
     </div>
-  )
-}
+  );
+};
 
-export default Project
+export default Project;
