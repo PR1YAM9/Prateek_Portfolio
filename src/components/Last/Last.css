@@ -165,19 +165,46 @@
   line-height: normal;
 }
 @media (max-width: 480px) {
-  .head{
-    font-size: 48px;
+  .respon{
+    font-size: 15px;
+    left: 32%;
+    margin-top: 100px;
+    letter-spacing: 2px;
   }
-  .hasdDiv{
-    margin-left:0;
+  .head{
+    line-height: 60px; 
+    font-size: 48px;
+    text-align: center;
+  }
+  .hashDiv{
+    margin-left: 10px;
+    margin-top: 30px;
   }
   .id{
     font-size: 20px;
   }
+  .marquee__item {
+    font-size: 26px;
+  }
+  .marquee{
+    height: 50px;
+  }
+  .marquee__image{
+    margin-top: 5px;
+  }
+  .black-bar{
+    transform: rotate(-10.435deg);
+    height: 50px;
+  }
+  
   .rest{
+    gap: 1px;
+    margin-left: 10px;
+    margin-top: 10px;
     padding-top: 0;
     position: relative;
     padding-left: 0;
+    width: 91%;
   }
   .outer{
     display: block;
@@ -194,4 +221,5 @@
   .fourth{
 font-size: 16px;
   }
+  
 }
