@@ -1,3 +1,8 @@
+import img1 from '../../images/Rectangle 10.png'
+import img2 from '../../images/Rectangle 11 (1).png'
+import img3 from '../../images/Rectangle 12.png'
+import img4 from '../../images/Rectangle 13.png'
+
 const data = [
   {
     id:1,
@@ -13,7 +18,8 @@ const data = [
     techColor:'#637AAA',
     aboutColor:'#99BAF9',
     border:'#23488E',
-    locationColor:'#637AAA'
+    locationColor:'#637AAA',
+    img:img1
     
   },
   {
@@ -30,7 +36,8 @@ const data = [
     techColor:'#63AA9D',
     aboutColor:'#61ACB1',
     border:'#238E7A',
-    locationColor:'#4F8285'
+    locationColor:'#4F8285',
+    img:img2
   },
   {id:3,
     sno: "PROJECT 3",
@@ -45,7 +52,8 @@ const data = [
     techColor:'#AAA363',
     aboutColor:'#F9E499',
     border:'#8E8323',
-    locationColor:'#AA9663'
+    locationColor:'#AA9663',
+    img:img3
   },
   {
     id:4,
@@ -61,7 +69,8 @@ const data = [
     techColor:'#6395AA',
     aboutColor:'#99DCF9',
     border:'#23678E',
-    locationColor:'#6395AA'
+    locationColor:'#6395AA',
+    img:img4
   }
 ];
 export default data;
