@@ -1,0 +1,26 @@
+#project-head {
+  color: #153d8c;
+  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-family: Anton;
+  font-size: 76px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+}
+.subtext-project {
+  top: 118%;
+  left: 36.5%;
+  margin-top: 0;
+
+  transform: rotate(-4deg);
+
+  position: absolute;
+  color: #0ca4e6;
+  font-family: "Caveat";
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 70%;
+}
