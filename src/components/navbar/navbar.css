@@ -18,7 +18,10 @@ nav {
     color: white;
     transition: all 0.3s ease-in-out;
 }
-
+.link-spann{
+    color: #637AAA;
+    cursor: pointer;
+}
 nav .title {
     height: 50px;
     margin : 0 0rem;
@@ -108,4 +111,38 @@ nav .menu {
     .openItems{
         margin: 1.2rem 0.5rem;
     }
+    .link-spann {
+        padding-bottom: 0px;
+        
+    }
 }
+.link-spann {
+    padding-bottom: 3px;
+    border-bottom: 2px solid transparent;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.link-spann:hover {
+    border-image: radial-gradient(circle, #040F25 20%, #0CA4E6 43%, #0CA4E6 51%, #040F25 82%) 1;
+    background-image: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .hero-main{
+        font-size: 163px;
+    }
+    .p1{
+        top: 35%;
+        left: 35%;
+    }
+    .hero-sub1{
+        width: 35%;
+    }
+    .p2{
+        top: 72%
+    }
+    nav{
+        margin-right: 17px;
+    }
+  }

@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
+import { Link as ScrollLink } from "react-scroll";
 import './navbar.css'
 import robot from '../../images/robot logo.png'
 import dot from '../../images/DotsThreeOutline.svg'
@@ -24,14 +25,30 @@ const Navbar = () => {
           <img src={dot} alt=""/>
         </div>
         <ul className={menuOpen ? "open" : ""}>
-          <li>
-            <NavLink to="/">Projects</NavLink>
+          <li style={{zIndex: 10}}>
+          <ScrollLink
+              className='link-spann'
+              to="projects-section"
+              smooth={true}
+              duration={500}
+              onClick={() => setMenuOpen(false)} // Close the menu after clicking the link
+            >
+              Projects
+            </ScrollLink>
           </li>
           <li>
-            <NavLink to="/">Contact</NavLink>
+          <ScrollLink
+              className='link-spann'
+              to="contact-section"
+              smooth={true}
+              duration={500}
+              onClick={() => setMenuOpen(false)} // Close the menu after clicking the link
+            >
+              Contact
+            </ScrollLink>
           </li>
           <li>
-            <NavLink className="resume" to="/">Resume</NavLink>
+            <NavLink  className="resume" rel='' target='_blank' to="https://file.notion.so/f/s/aeac85ee-87e9-4cc7-bdeb-fb5c8841b27a/Pratik_Nikam_Resume.pdf?id=72183e68-5581-4d57-8f91-ce1b8a8089ed&table=block&spaceId=2cf9760a-409c-49b1-9297-36fd6f6b1340&expirationTimestamp=1690761600000&signature=8ZwXCCoNRUIi2KojPs2KVzP-YeeEZf1rMo2fpBPiLMM&downloadName=Pratik_Nikam_Resume.pdf">Resume</NavLink>
           </li>
           {menuOpen && (
             <li>
