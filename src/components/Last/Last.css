@@ -92,8 +92,9 @@
 .respon{
   text-transform: lowercase;
   transform: rotate(-4deg);
-  margin-top: 40px;
-  left: 27.5%;
+  margin-top: 50px;
+  left: 28%;
+  width: 50px;
   position: absolute;
   color: #0CA4E6;
   font-family: 'Caveat';
@@ -101,6 +102,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 70%; /* 23.736px */
+  letter-spacing: 2px;
 }
 .hashDiv{
   position: relative;
@@ -170,6 +172,7 @@
     left: 32%;
     margin-top: 100px;
     letter-spacing: 2px;
+    width: 100%;
   }
   .head{
     line-height: 60px; 
