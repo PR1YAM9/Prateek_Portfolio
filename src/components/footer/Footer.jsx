@@ -13,7 +13,7 @@ export default function Footer() {
             <a className='links' href="mailto:ee21btech11037@iith.ac.in"> <img className='logos' src={email}  alt="" /> <span className='link-span'> Email</span></a>
             <a className='links' href="https://www.linkedin.com/in/pratik-nikam-83ab98223"> <img className='logos' src={linkd} alt="" /> <span className='link-span'> Linkedin</span></a>
         </div>
-        <div class="line"></div>
+        <div className="line"></div>
         <div className='second1'>
             <div className='rights'>
             © Copyright 2023 by Pratik Nikam. All rights reserved <span className='footer-slash'> |</span>&nbsp;<a className='quatro' href="https://www.quatro.in/"> Created by quatro <img className='quatro-link' src={quat} alt="" /> </a> 
