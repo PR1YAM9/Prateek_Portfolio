@@ -16,8 +16,8 @@ const Project = () => {
 
       {data.map((item) => {
         return (
-          <div style={{display:'flex',justifyContent:'center' ,margin:'35px 0px'}}>
-            <Card key={item.id} {...item} />
+          <div key={item.id} style={{display:'flex',justifyContent:'center' ,margin:'35px 0px'}}>
+            <Card  {...item} />
           </div>
         );
       })}
