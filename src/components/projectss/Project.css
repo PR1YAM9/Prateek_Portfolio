@@ -24,3 +24,14 @@
   font-weight: 400;
   line-height: 70%;
 }
+.PM-img{
+  display: none;
+}
+@media (max-width: 480px){
+  .PD-img{
+    display: none;
+  }
+  .PM-img{
+    display: revert;
+  }
+}

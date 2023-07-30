@@ -70,7 +70,7 @@ const data = [
     aboutColor:'#99DCF9',
     border:'#23678E',
     locationColor:'#6395AA',
-    img:img4
-  }
+    img:img4,
+    github:true  }
 ];
 export default data;
