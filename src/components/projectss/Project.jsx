@@ -3,6 +3,7 @@ import Card from "../cards/Card.jsx";
 import data from "../cards/data.js";
 import "./Project.css";
 import photo from "../../images/Group 5.png";
+import photo2 from "../../images/Group 22.png";
 const Project = () => {
   return (
     <div>
@@ -11,7 +12,8 @@ const Project = () => {
         <span className='subtext-project'>Recent</span>
       </div> */}
       <div style={{ display: "flex", justifyContent: "center" }}>
-        <img src={photo} alt="" />
+        <img src={photo} alt="" className="PD-img"/>
+        <img src={photo2} alt="" className="PM-img" />
       </div>
 
       {data.map((item) => {

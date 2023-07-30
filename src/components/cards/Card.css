@@ -7,3 +7,67 @@
 .card-img{
     width:227px;
 }
+
+.card-img img{
+    width: 100%;
+    object-fit:fill;
+    object-position:center;
+    position: relative;
+    z-index: 2;
+    right: 13%;
+    top: 7%;
+}
+
+.tech{
+    border:1px solid;
+    border-radius:9px;
+  
+    margin-right:5px;
+  
+    padding-bottom:3px;
+    padding-left:4px;
+    padding-right:4px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.card-about{
+    margin-top:30px;
+    margin-bottom:20px;
+    width:400px;
+}
+.card-title{
+    margin:4px 0px;
+    font-size:20px;
+    font-weight:bold;
+}
+
+
+@media (max-width: 480px){
+    .P-card{
+        flex-direction: column-reverse;
+
+    }
+    .card{
+        align-self: center;
+        width: 90%;
+        height: 370px;
+        padding: 55px 45px 35px 26px;
+        font-family: 'Inter';
+    
+    }
+    .card-about{
+        width: fit-content;
+    }
+    .card-img {
+        width: 297px;
+        align-self: center;
+    }
+    .card-img img{
+        width: 100%;
+        object-fit:fill;
+        object-position:center;
+        top: 15%;
+        right: 0%;
+     
+    }
+}
