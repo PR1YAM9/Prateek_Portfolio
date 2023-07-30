@@ -6,7 +6,7 @@ import photo from "../../images/Group 5.png";
 import photo2 from "../../images/Group 22.png";
 const Project = () => {
   return (
-    <div>
+    <div id="projects-section">
       {/* <div style={{textAlign:'center'}}>
         <p id='project-head'>PROJECTS</p>
         <span className='subtext-project'>Recent</span>
