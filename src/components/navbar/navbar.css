@@ -63,10 +63,18 @@ nav .menu {
 }
 
 .resume{
-    border: 1px solid #0CA4E6;
+    font-size: 20px;
+    font-family: 'Inter';
+    border: none;
     background-color: #0CA4E6; 
     border-radius: 0.5rem;
     color: white;
+    width: 100px;
+    height: 35px;
+    /* padding: 0; */
+}
+.resumeA{
+    padding-top: 0px;
 }
 
 @media (max-width: 480px) {
