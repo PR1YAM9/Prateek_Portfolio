@@ -2,6 +2,15 @@ import img1 from '../../images/Rectangle 10.png'
 import img2 from '../../images/Rectangle 11 (1).png'
 import img3 from '../../images/Rectangle 12.png'
 import img4 from '../../images/Rectangle 13.png'
+import img5 from '../../images/Rectangle 19.png'
+import img6 from '../../images/Rectangle 20.png'
+import img7 from '../../images/Rectangle 21.png'
+import img8 from '../../images/Rectangle 18.png'
+import img9 from '../../images/Property 1=Default.png'
+import img10 from '../../images/Property 1=Default (1).png'
+import img11 from '../../images/Property 1=Default (2).png'
+import img12 from '../../images/Property 1=Default (3).png'
+
 
 const data = [
   {
@@ -19,7 +28,9 @@ const data = [
     aboutColor:'#99BAF9',
     border:'#23488E',
     locationColor:'#637AAA',
-    img:img1
+    img:img1,
+    img2:img5,
+    img3:img9,
     
   },
   {
@@ -37,7 +48,9 @@ const data = [
     aboutColor:'#61ACB1',
     border:'#238E7A',
     locationColor:'#4F8285',
-    img:img2
+    img:img2,
+    img2:img6,
+    img3:img11,
   },
   {id:3,
     sno: "PROJECT 3",
@@ -53,7 +66,9 @@ const data = [
     aboutColor:'#F9E499',
     border:'#8E8323',
     locationColor:'#AA9663',
-    img:img3
+    img:img3,
+    img2:img7,
+    img3:img10,
   },
   {
     id:4,
@@ -71,6 +86,8 @@ const data = [
     border:'#23678E',
     locationColor:'#6395AA',
     img:img4,
-    github:true  }
+    github:true,
+    img2:img8,
+    img3:img12,  }
 ];
 export default data;
