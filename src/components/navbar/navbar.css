@@ -48,10 +48,6 @@ nav ul li a {
     background-origin: border-box;
     background-clip: content-box, border-box;
 }
-nav ul li a:hover{
-    border-image: linear-gradient(90deg, #040F25, #0CA4E6, #040F25);
-    border-image-slice: 1;
-}
 
 .rotate-90 {
     transform: rotate(90deg);
