@@ -17,11 +17,14 @@ const Navbar = () => {
 
   return (
     <>
+    {menuOpen && <div className="overlay"></div>}
       <nav>
         <Link to="/">
           <img src={robot} className='title' alt="" />
         </Link>
-        <div className={`menu ${menuOpen ? "rotate-90" : ""}`} onClick={() => setMenuOpen(!menuOpen)}>
+        <div className={`menu ${menuOpen ? "rotate-90" : ""}`} 
+        onClick={() => setMenuOpen(!menuOpen)}
+        >
           <img className='dots' src={dot} alt=""/>
         </div>
         <ul className={menuOpen ? "open" : ""}>
