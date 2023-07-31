@@ -36,7 +36,7 @@ const Hero = ({ menuOpen }) => {
         </div>
       </div>
       <div className="hero-container2">
-          <div ><img className='line' src={line} alt="" /></div>
+          <div ><img className='linee' src={line} alt="" /></div>
           <div><Lottie className='lottie' animationData={animationData} /></div> 
           <div className='linee'><img src={linee} alt="" /></div>
       </div>

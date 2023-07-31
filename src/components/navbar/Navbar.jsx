@@ -22,7 +22,7 @@ const Navbar = () => {
           <img src={robot} className='title' alt="" />
         </Link>
         <div className={`menu ${menuOpen ? "rotate-90" : ""}`} onClick={() => setMenuOpen(!menuOpen)}>
-          <img src={dot} alt=""/>
+          <img className='dots' src={dot} alt=""/>
         </div>
         <ul className={menuOpen ? "open" : ""}>
           <li style={{zIndex: 10}}>

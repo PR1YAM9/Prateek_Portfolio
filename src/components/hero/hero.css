@@ -63,7 +63,7 @@
     .hero-main{
         margin-top: 43%;
         font-size: 80px;
-        line-height: 120px;
+        line-height: 100px;
     }
     .hero-sub1{
         font-size: 15px;
@@ -85,5 +85,23 @@
     .hero-container2{
         width: 60%;
         margin-bottom: 150px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .hero-main{
+        font-size: 163px;
+    }
+    .p1{
+        top: 35%;
+        left: 35%;
+    }
+    .hero-sub1{
+        width: 35%;
+    }
+    .p2{
+        top: 72%
+    }
+    nav{
+        margin-right: 17px;
     }
 }
