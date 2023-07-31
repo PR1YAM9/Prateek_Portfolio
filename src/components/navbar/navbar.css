@@ -10,7 +10,8 @@ nav {
     z-index: 1000;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    margin: 15px 40px;
+    margin: 0;
+    padding: 15px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,9 +43,14 @@ nav ul li a {
     color: white;
     padding: 0.5rem;
     margin: 0 0.5rem;
+    padding-bottom: 3px;
+    border-bottom: 2px solid transparent;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
 }
 nav ul li a:hover{
-    border-bottom: 2px solid #0CA4E6 ;
+    border-image: linear-gradient(90deg, #040F25, #0CA4E6, #040F25);
+    border-image-slice: 1;
 }
 
 .rotate-90 {
@@ -73,7 +79,8 @@ nav .menu {
 
 @media (max-width: 480px) {
     nav {
-        margin: 15px 28px;
+        margin: 0;
+        padding: 15px 28px;
         position: relative; /* Ensure the positioning context remains */
     }
 
@@ -115,16 +122,34 @@ nav .menu {
     }
     .link-spann {
         padding-bottom: 0px;
+        margin: 5px auto;
+        width: 100px;
     }
+    .resume{
+        margin-top: 10px;
+    }
+    .menu.rotate-90 {
+        transform: rotate(90deg) translateX(-3px);
+      }
 }
+
+
 .link-spann {
     padding-bottom: 3px;
     border-bottom: 2px solid transparent;
     background-origin: border-box;
     background-clip: content-box, border-box;
 }
-
 .link-spann:hover {
-    border-image: radial-gradient(circle, #040F25 20%, #0CA4E6 43%, #0CA4E6 51%, #040F25 82%) 1;
-    background-image: none;
+    border-image: linear-gradient(80deg, #040F25, #0CA4E6, #040F25);
+    border-image-slice: 1;
+}
+.overlay {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(6, 5, 27, 0.382); 
+    z-index: 999;
 }
