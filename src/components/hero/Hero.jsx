@@ -1,14 +1,33 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './hero.css';
 import Lottie from 'lottie-react'; 
 import animationData from '../../images/pratik - scroll[1446].json';
 import line from '../../images/Line 3.png';
 import linee from '../../images/Line 2.png';
+import lineePhoneL from '../../images/Line 3.svg';
+import lineePhoneR from '../../images/Line 4.svg';
+
 
 
 
 const Hero = ({ menuOpen }) => {
-  const isMobile = window.innerWidth <= 480; // Check if the window width is 480px or smaller
+  
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 480);
+
+  // Function to handle the window resize event
+  const handleResize = () => {
+    setIsMobile(window.innerWidth <= 480);
+  };
+
+  useEffect(() => {
+    // Add event listener for the resize event
+    window.addEventListener('resize', handleResize);
+
+    // Clean up the event listener when the component is unmounted
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
   return (
     <>
       <div className="hero-container">
@@ -27,7 +46,7 @@ const Hero = ({ menuOpen }) => {
             </p>
           )
         )}
-        {!menuOpen && ( // Hide p2 when menuOpen is true
+        {!menuOpen && (
           <p className='hero-sub1 p2'>
             Previously <span  className='fontg' style={{ color: '#0CA4E6' }}>Interned <br />@eYantra</span> , IIT Bombay
           </p>
@@ -36,9 +55,15 @@ const Hero = ({ menuOpen }) => {
         </div>
       </div>
       <div className="hero-container2">
-          <div ><img className='linee' src={line} alt="" /></div>
-          <div><Lottie className='lottie' animationData={animationData} /></div> 
-          <div><img className='linee' src={linee} alt="" /></div>
+        <div>
+          <img className='linee' src={isMobile ? lineePhoneL : line} alt="" />
+        </div>
+        <div>
+          <Lottie className='lottie' animationData={animationData} />
+        </div> 
+        <div>
+          <img className='linee' src={isMobile ? lineePhoneR : linee} alt="" />
+        </div>
       </div>
     
     </>
