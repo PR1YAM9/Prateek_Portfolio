@@ -51,7 +51,7 @@ const Navbar = () => {
             </ScrollLink>
           </li>
           <li>
-            <a className='resumeA' rel='noreferrer' target='_blank' href="https://file.notion.so/f/s/aeac85ee-87e9-4cc7-bdeb-fb5c8841b27a/Pratik_Nikam_Resume.pdf?id=72183e68-5581-4d57-8f91-ce1b8a8089ed&table=block&spaceId=2cf9760a-409c-49b1-9297-36fd6f6b1340&expirationTimestamp=1690761600000&signature=8ZwXCCoNRUIi2KojPs2KVzP-YeeEZf1rMo2fpBPiLMM&downloadName=Pratik_Nikam_Resume.pdf"> <button className="resume"> Resume</button></a>
+            <a className='resumeA' rel='noreferrer' target='_blank' href="https://file.notion.so/f/s/aeac85ee-87e9-4cc7-bdeb-fb5c8841b27a/Pratik_Nikam_Resume.pdf?id=72183e68-5581-4d57-8f91-ce1b8a8089ed&table=block&spaceId=2cf9760a-409c-49b1-9297-36fd6f6b1340&expirationTimestamp=1691712000000&signature=nJHcCN5ukFaIvNTjFOyKoFUtCWEp_uj-KDlCxcDdtbk&downloadName=Pratik_Nikam_Resume.pdf "> <button className="resume"> Resume</button></a>
           </li>
           {menuOpen && (
             <li>

@@ -106,12 +106,12 @@
 }
 .hashDiv{
   position: relative;
-  margin-left: 10%;
+  margin-left: 16%;
 }
 .rest{
   display: flex;
   justify-content: center;
-  padding-left: 16%;
+  padding-left: 22%;
   padding-top: 45px;
   position: absolute;
   flex-direction: column;
