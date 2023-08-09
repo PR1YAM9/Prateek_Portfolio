@@ -9,14 +9,15 @@
 }
 .hero-main{
     position: relative;
-    color: #081E48;
+    color: #153D8C;
     font-family: 'Anton', sans-serif; ;
     font-size: 250px;
     font-weight: 400;
     line-height: 242px;
     letter-spacing: 0em;
     text-align: center;
-    text-transform: uppercase;    
+    text-transform: uppercase;   
+    opacity: 65%; 
 }
 .hero-sub1{
     width: 20%;
