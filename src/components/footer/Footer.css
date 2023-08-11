@@ -13,7 +13,7 @@
     flex-direction: column;
 }
 .first1{
-    padding: 0 190px;
+    padding: 0 315px;
     display: flex;
     justify-content: space-around;
     margin-bottom: 20px;
@@ -130,6 +130,49 @@ img{
     background: radial-gradient(circle at 4.78% 50.47%, #040F25 0%, #637AAA 35.85%, rgba(99, 122, 170, 0.00) 67.10%);
     margin-top: 20px;
     margin-left: 25%;
+  }
+  .outer1{
+    margin-top: 90px;
+  }
+  .container{
+    margin-top: 100px;
+  }
+  
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .links{
+    font-size: 20px;
+  }
+  .logos {
+    width: 21px;
+    height: 21px;
+  }
+  .first1{
+    margin: 0 80px;
+    padding: 0;
+    justify-content: space-between;
+  }
+  .second1{
+    font-size: 13px ;
+}
+  .quatro{
+    flex-wrap: nowrap ;
+    font-size: 13px ;
+  }
+  .rights{
+    margin-top: 20px;
+    margin-left: 5px;
+    display: flex;  
+  }
+  .footer-slash{
+    display: none;
+  }
+  .quatro-link{
+    width: 21px;
+    height: 21px;
+  }
+  .link-span{
+    padding: 0;
   }
   .outer1{
     margin-top: 90px;
