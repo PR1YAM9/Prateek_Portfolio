@@ -76,6 +76,7 @@
   margin-bottom: 40px;
 }
 .head{
+  margin-top: 100px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -224,5 +225,74 @@
   .fourth{
 font-size: 16px;
   }
+  
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .respon{
+    font-size: 20px;
+    left: 22%;
+    margin-top: 30px;
+    letter-spacing: 0.2px;
+    /* width: 100%; */
+  }
+  .head{
+    line-height: 60px; 
+    font-size: 48px;
+    text-align: center;
+  }
+  .hashDiv{
+    margin-left: 5px;
+    margin-top: 30px;
+  }
+  .id{
+    font-size: 80px;
+  }
+  .rest{
+    padding-left: 80px;
+    padding-top: 70px;
+    margin-right: 55px;
+  }
+  .first{
+    font-size: 25px;
+  }
+  .second{
+    font-size: 20px;
+  }
+  .third{
+    font-size:15px;
+  }
+  .fourth{
+    font-size: 18px;
+  }
+  .marquee__item {
+    font-size: 26px;
+  }
+  .marquee{
+    height: 50px;
+  }
+  .marquee__image{
+    margin-top: 5px;
+  }
+  .black-bar{
+    transform: rotate(-5deg);
+    height: 50px;
+  }
+   .marquee__item {
+    font-size: 26px;
+  }
+  .marquee{
+    height: 50px;
+  }
+  .marquee__image{
+    margin-top: 5px;
+  }
+  .black-bar{
+    transform: rotate(-5deg);
+    height: 50px;
+  }
+  .container {
+    margin-top: 150px;
+}
+
   
 }
